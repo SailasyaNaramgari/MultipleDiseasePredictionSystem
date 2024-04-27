@@ -42,4 +42,6 @@ scikit-learn
 
 Python: Google colab
 
+Anaconda, Spyder
+
 Windows (32bit/64bit): Windows 11
