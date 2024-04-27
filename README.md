@@ -26,7 +26,7 @@ These models collectively empower the web application to offer accurate disease 
 
 ## Technologies Used
 
-Requirements :
+### Requirements :
 
 Python 
 
@@ -38,7 +38,7 @@ streamlit-option-menu
 
 scikit-learn
 
-Tested Platforms :
+### Tested Platforms :
 
 Python: Google colab
 
