@@ -27,6 +27,7 @@ These models collectively empower the web application to offer accurate disease 
 ## Technologies Used
 
 Requirements :
+
 Python 
 
 pickle-mixin
