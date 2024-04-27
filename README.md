@@ -8,7 +8,9 @@ This web application offers a user-friendly interface for predicting multiple di
 The diseases covered by this web application encompass:
 
 Diabetes
+
 Parkinson's disease
+
 Heart disease
 
 ## Models:
@@ -26,9 +28,13 @@ These models collectively empower the web application to offer accurate disease 
 
 Requirements :
 Python 
+
 pickle-mixin
+
 streamlit
+
 streamlit-option-menu
+
 scikit-learn
 
 Tested Platforms :
