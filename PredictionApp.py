@@ -10,6 +10,7 @@ import streamlit as st
 
 #Loading the saved models
 
+diabetes_model = pickle.load(open('Saved_models/Diabetes_model.sav','rb'))
 
 heart_disease_model = pickle.load(open('Saved_models/Heartdisease_model.sav','rb'))
 
