@@ -10,6 +10,17 @@ import streamlit as st
 
 #Loading the saved models
 
+from joblib import load, dump
+
+# Save models
+dump(diabetes_model, 'Saved_models/Diabetes_model.joblib')
+dump(heart_disease_model, 'Saved_models/Heartdisease_model.joblib')
+
+# Load models
+diabetes_model = load('Saved_models/Diabetes_model.joblib')
+heart_disease_model = load('Saved_models/Heartdisease_model.joblib')
+
+
 diabetes_model = pickle.load(open('Saved_models/Diabetes_model.sav','rb'))
 
 heart_disease_model = pickle.load(open('Saved_models/Heartdisease_model.sav','rb'))
