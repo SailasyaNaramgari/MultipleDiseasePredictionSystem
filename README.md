@@ -30,8 +30,6 @@ These models collectively empower the web application to offer accurate disease 
 
 Python 
 
-pickle-mixin
-
 streamlit
 
 streamlit-option-menu
