@@ -24,17 +24,6 @@ Heart Disease Model: By considering a range of clinical and demographic features
 
 These models collectively empower the web application to offer accurate disease predictions based on comprehensive data analysis.
 
-## Technologies Used
-
-### Requirements :
-
-Python 
-
-streamlit
-
-streamlit-option-menu
-
-scikit-learn
 
 ### Tested Platforms :
 
