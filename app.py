@@ -162,7 +162,7 @@ if selected == "Parkinson Prediction":
     # page title
     st.title('PARKINSON PREDICTION using ML')
 
-    col1, col2, col3, col4, col5 = st.columns(5)
+    col1, col2, col3= st.columns(3)
 
     with col1:
         fo = st.text_input('MDVP:Fo(Hz)')
@@ -173,40 +173,40 @@ if selected == "Parkinson Prediction":
     with col3:
         flo = st.text_input('MDVP:Flo(Hz)')
 
-    with col4:
+    with col1:
         Jitter_percent = st.text_input('MDVP:Jitter(%)')
 
-    with col5:
+    with col2:
         Jitter_Abs = st.text_input('MDVP:Jitter(Abs)')
 
-    with col1:
+    with col3:
         RAP = st.text_input('MDVP:RAP')
 
-    with col2:
+    with col1:
         PPQ = st.text_input('MDVP:PPQ')
 
-    with col3:
+    with col2:
         DDP = st.text_input('Jitter:DDP')
 
-    with col4:
+    with col3:
         Shimmer = st.text_input('MDVP:Shimmer')
 
-    with col5:
+    with col1:
         Shimmer_dB = st.text_input('MDVP:Shimmer(dB)')
 
-    with col1:
+    with col2:
         APQ3 = st.text_input('Shimmer:APQ3')
 
-    with col2:
+    with col3:
         APQ5 = st.text_input('Shimmer:APQ5')
 
-    with col3:
+    with col1:
         APQ = st.text_input('MDVP:APQ')
 
-    with col4:
+    with col2:
         DDA = st.text_input('Shimmer:DDA')
 
-    with col5:
+    with col3:
         NHR = st.text_input('NHR')
 
     with col1:
@@ -218,16 +218,16 @@ if selected == "Parkinson Prediction":
     with col3:
         DFA = st.text_input('DFA')
 
-    with col4:
+    with col1:
         spread1 = st.text_input('spread1')
 
-    with col5:
+    with col2:
         spread2 = st.text_input('spread2')
 
-    with col1:
+    with col3:
         D2 = st.text_input('D2')
 
-    with col2:
+    with col1:
         PPE = st.text_input('PPE')
 
     # code for Prediction
