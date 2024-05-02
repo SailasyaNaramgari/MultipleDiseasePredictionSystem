@@ -29,6 +29,6 @@ These models collectively empower the web application to offer accurate disease 
 
 Python: Google colab
 
-Anaconda, Spyder
+Anaconda, Spyder, Streamlit
 
 Windows (32bit/64bit): Windows 11
