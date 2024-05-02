@@ -92,7 +92,7 @@ if selected == 'Heart Disease Prediction':
     # page title
     st.title('HEART DISEASE PREDICTION using ML')
 
-    col1, col2, col3 = st.columns(3)
+    col1, col2 = st.columns(2)
 
     with col1:
         age = st.text_input('Age')
@@ -100,16 +100,16 @@ if selected == 'Heart Disease Prediction':
     with col2:
         sex = st.text_input('Sex')
 
-    with col3:
+    with col1:
         cp = st.text_input('Chest Pain types')
 
-    with col1:
+    with col2:
         trestbps = st.text_input('Resting Blood Pressure')
 
-    with col2:
+    with col1:
         chol = st.text_input('Serum Cholestoral in mg/dl')
 
-    with col3:
+    with col2:
         fbs = st.text_input('Fasting Blood Sugar > 120 mg/dl')
 
     with col1:
@@ -118,16 +118,16 @@ if selected == 'Heart Disease Prediction':
     with col2:
         thalach = st.text_input('Maximum Heart Rate achieved')
 
-    with col3:
+    with col1:
         exang = st.text_input('Exercise Induced Angina')
 
-    with col1:
+    with col2:
         oldpeak = st.text_input('ST depression induced by exercise')
 
-    with col2:
+    with col1:
         slope = st.text_input('Slope of the peak exercise ST segment')
 
-    with col3:
+    with col2:
         ca = st.text_input('Major vessels colored by flourosopy')
 
     with col1:
